@@ -43,7 +43,7 @@ After completing this part, students will:
 ## 2.2 TESTING TOOLS
 
 The testing tool to be used in this part, is 
-- START (open source, developed by Dr. Far's Lab, running on various OS including 32bit and 64bit Windows and Linux). 
+- SRTAT (open source, developed by Dr. Far's Lab, running on various OS including 32bit and 64bit Windows and Linux). 
  **OR** 
 - C-SFRAT (an open source software developed by Python). 
 
