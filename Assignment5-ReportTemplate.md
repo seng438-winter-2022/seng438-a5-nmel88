@@ -15,6 +15,20 @@ The purpose of this lab was to familiarize ourselves with different methods of r
 # 
 
 # Assessment Using Reliability Growth Testing 
+### Reliability Growth Prediction - All Points (SRTAT)
+![](media/reliability-growth-all-points.png)
+
+To select the model that would provide the best fit for the project data, SRTAT was used to test each column of time data (execution time, failure identification work in person hours, computer time failure identification) using all available models (Geometric, Jelinski/Moranda De-Eutrophication, Littlewood and Varral's Bayesian Reliability, John Musa's Basic Execution Time, John Musa's Logarithmic Poisson, and Non-homogeneous Poisson). This method was used because CASRE provided no models to use for model ranking. Most models in SRTAT threw various errors when a prediction was attempted; however, we found that Littlewood and Varral's Bayesian Reliability model fit the execution time data best.
+
+### Laplace Test (CASRE)
+![](media/rdc-laplace-casre.png)
+
+In order to determine the range of useful data, a Laplace test was conducted using CASRE. Execution time in hours was used for hours since last failure, and failure count was used for severity, as there was no severity ranking given. From the Laplace test, successive data points with Laplace Test Value between -2 and +2 were chosen as valid points. These data points were on time intervals 15-31. The reliability growth prediction was tested again with the new data points as shown below.
+
+### Reliability Growth Prediction - Points Selected from Laplace Test (SRTAT)
+![](media/reliability-growth-selected-points.png)
+
+As shown in both reliability growth predictions (all points and selected points), as time increases, the number of failures increases more slowly. This shows that the SUT is becoming more reliable as time goes on.
 
 # Assessment Using Reliability Demonstration Chart 
 
