@@ -10,7 +10,7 @@
 |                 | Heidi Schaefer  |
 
 # Introduction
-The purpose of this lab was to familiarize ourselves with different methods of reliability testing. Reliability growth testing was performed using ________ (SRTAT CASRE C-SFRAT SwEET). Reliability demonstration charts were used to check if MTTF is sufficient for the system's needs. The same hypothetical SUT was analyzed for each section.
+The purpose of this lab was to familiarize ourselves with different methods of reliability testing. Reliability growth testing was performed using SRTAT. Reliability demonstration charts were used to check if MTTF is sufficient for the system's needs using the provided RDC-11 Excel Spreadsheet. The same hypothetical SUT was analyzed for each section.
 
 # 
 
