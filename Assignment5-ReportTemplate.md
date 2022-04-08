@@ -31,13 +31,19 @@ In order to determine the range of useful data, a Laplace test was conducted usi
 As shown in both reliability growth predictions (all points and selected points), as time increases, the number of failures increases more slowly. This shows that the SUT is becoming more reliable as time goes on.
 
 # Assessment Using Reliability Demonstration Chart 
+To create the reliability demonstration charts, the cumulative failure count and execution times were used. The RDC-11 Excel document allowed us to scale the data to better fit the provided chart.
+
+![](media/rdc.png)
+
+For a discrimination ratio of 2.0, and developer and user risks of 1%, the above chart was created. Initially, and until the 80th error, the chart is in the continue region. After the 80th error, the chart reaches the accept region, and stays in this region until the testing has completed.
 
 # 
 
 # Comparison of Results
+Both the results of the reliability growth prediction, and the results of the reliability demonstration chart show that as the software testing continued, the failure rate became more acceptable. 
 
 # Discussion on Similarity and Differences of the Two Techniques
-Reliability growth testing allows for graphical representation of reliability trends. Different models can be used to determine a best fit graph for the data. These graphs can show whether reliability is increasing, decreasing, or stable. The sample size must be quite large to allow for an accurate trend to be determined.
+Reliability growth testing allows for graphical representation of reliability trends. Different models can be used to determine a best fit graph for the data. These graphs can show whether reliability is predicted to be increasing, decreasing, or stable. The sample size must be quite large to allow for an accurate trend to be determined. This test shows the growth/decay of reliability, but not whether it is acceptable to the developer and customer.
 
 Reliability demonstration charts are used to determine whether the SUT is acceptable to the developer and customer using risk probabilities and failure intensity estimation. One benefit is that different levels of risk and failure intensities can easily be experimented with, as shown in the results above. However, it does not calculate the reliability of the system, only whether or not the system is acceptable to the developer and customer. The sample size does not need to be as large as the sample size for reliability growth testing.
 
