@@ -42,9 +42,10 @@ Reliability growth testing allows for graphical representation of reliability tr
 Reliability demonstration charts are used to determine whether the SUT is acceptable to the developer and customer using risk probabilities and failure intensity estimation. One benefit is that different levels of risk and failure intensities can easily be experimented with, as shown in the results above. However, it does not calculate the reliability of the system, only whether or not the system is acceptable to the developer and customer. The sample size does not need to be as large as the sample size for reliability growth testing.
 
 # How the team work/effort was divided and managed
-
-# 
+All team members worked on all sections of the lab, both on our own time and in a group. Results received from the programs were discussed as a group, and the best graphs were collectively chosen from all different programs, models and inputs.
 
 # Difficulties encountered, challenges overcome, and lessons learned
+The main difficulties encountered were figuring out how to format the data and run the programs. In this lab, we learned how to format data from an Excel file into the desired .txt or .dat files when given examples. We learned that some data collections do not apply to some reliability growth models, and that it is necessary to find the correct model to analyze the data. We learned how to run DOSBox and Windows 3.1, and how to read a Laplace test chart to determine valid data points.
 
 # Comments/feedback on the lab itself
+This lab had very few instructions, which made it difficult to determine which data to use, and how to format it correctly for the given programs. SRTAT did not work on macOS, and it was initially very difficult to figure out how to run CASRE using the DOSBox with no instructions. There was also an error in the SYSTEM.ini file for the DOSBox, which had to be researched and altered in order to run Windows 3.1. CASRE did not have any models to use model ranking with, so it could only be used for the Laplace test, and we could not perform model ranking. Once the programs were running, and we learned how to format the data correctly, the lab was beneficial to visualize how reliability growth predictions and reliability demonstration charts work, and how they change when given varying data. More instructions are needed for this lab, as the majority of time spent on it was spent figuring out how to run the programs instead of analyzing the data.
