@@ -35,14 +35,17 @@ To create the reliability demonstration charts, the cumulative failure count and
 
 ### MTTFmin
 ![](media/rdc.png)
+
 MTTFmin calculated to be 1 maximum failure per 4 days.
 
 ### double MTTF
 ![](media/rdc_2mttf.png)
+
 Double MTTF calculated to be 1 maximum failure per 2 days. Note that because our maximum number of failures is kept constant at 16, the reject, accept, and continue ranges only go up to this threshold. This graph shows the testing has progressed passed the maximum threshold for tracking and the software has safely entered the accept region.
 
 ### half MTTF
 ![](media/rdc_halfmttf.png)
+
 Double MTTF calculated to be 1 maximum failure per 8 days. Using this MTTF, the RDC graph shows that developers must continue testing the software before making decisions for accepting or rejecting.
 
 
